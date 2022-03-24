@@ -1,0 +1,103 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-image: url("pozadina.jpg");
+    background-repeat: repeat;
+}
+.container {
+  margin-top: 15px;
+  background-color:#D8D8D8;
+  width: 80%;
+  }
+  
+  .menu{
+    text-align:center;
+  }
+  
+  .menu ul{
+    display:inline-block;
+    list-style:none;
+  }
+  
+  .menu ul li{
+    background-color:#909090;
+    float:left;
+    border-right:1px dotted #C8C8C8;
+    border-radius: 8px; 
+    font-weight:bolder;
+    transition:all 0.5s linear;
+    margin-right: 5px;
+    
+  }
+    
+    .menu ul li:hover{
+      background-color: #A8A8A8;  
+    }
+    
+    a{
+    font-family: 'Special Elite', cursive;
+      display:block;
+      padding:1em 2em;
+      color: black;
+      text-decoration:none;
+    }
+    a:hover{
+        color: 	#980000  ;  
+      }
+  
+
+.kartice {
+    background-color:#C8C8C8;
+    border: #C0C0C0 dotted;
+}
+.card-text {
+    font-size: 16px;
+    text-align: justify;
+}
+.vise {
+    font-size: 17px;
+    width: 100%;
+    height: 45px;
+    background-color:#909090;
+    border: black double;
+    border-radius: 8px; 
+    transition:all 0.5s linear;
+}
+.vise:hover{
+    color: 	#980000;
+    background-color: #A8A8A8;
+    border: double #980000;
+}
+.card-footer {
+    color: 	#980000;
+    font-style: italic;
+    text-align: center;
+}
+
+.info {
+    color: #980000;
+    font-style: italic;
+    background-color: #D3D3D3;
+    border-style: 	#980000 dotted;
+   
+}
+.kovid {
+    text-align: center;
+}
+
+
+#onama {
+    text-align: justify;
+}
+
+.badge {
+    color: white;
+    background-color: 	#707070;
+    border-color: #BEBEBE;
+    border-radius: 40%;
+
+}
+
+
+
